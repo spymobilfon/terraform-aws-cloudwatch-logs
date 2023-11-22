@@ -1,4 +1,4 @@
 module "cloudwatch_logs" {
-  source = "spymobilfon/cloudwatch-logs/aws"
+  source = "../.."
   name   = "/log1/log2/log3"
 }

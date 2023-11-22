@@ -9,6 +9,9 @@
 *.tfvars
 *.tfvars.json
 
+# lock files
+.terraform.lock.hcl
+
 # override files
 override.tf
 override.tf.json
